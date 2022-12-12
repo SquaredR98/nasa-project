@@ -1,0 +1,32 @@
+{
+  "name": "nasa-api",
+  "version": "1.0.0",
+  "description": "This is the backend NodeJS based API server for the NASA project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=5000 node src/index.js",
+    "watch": "nodemon src/index.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "API",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Express",
+    "Authentication",
+    "Express"
+  ],
+  "author": "Ravi Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.3.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

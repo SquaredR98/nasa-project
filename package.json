@@ -1,0 +1,25 @@
+{
+  "name": "nasa-project",
+  "version": "1.0.0",
+  "description": "Project build during the tutorial for the NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch:client-last": "npm run server & npm run client",
+    "watch:server-last": "npm run client & npm run server"
+  },
+  "keywords": [
+    "NodeJS",
+    "JS",
+    "FullStack",
+    "MongoDB",
+    "API",
+    "RestAPI"
+  ],
+  "author": "Ravi Ranjan",
+  "license": "ISC"
+}
